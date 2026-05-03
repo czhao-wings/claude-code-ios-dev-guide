@@ -726,7 +726,7 @@ Create `.mcp.json` in project root for team-shared MCP servers:
   "mcpServers": {
     "XcodeBuildMCP": {
       "command": "npx",
-      "args": ["-y", "xcodebuildmcp@latest"],
+      "args": ["-y", "xcodebuildmcp@latest", "mcp"],
       "env": {
         "INCREMENTAL_BUILDS_ENABLED": "true",
         "XCODEBUILDMCP_SENTRY_DISABLED": "true",
