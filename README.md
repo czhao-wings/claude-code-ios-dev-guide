@@ -1875,7 +1875,7 @@ fi
 #!/bin/bash
 
 # Read file path from stdin JSON
-FILE=$(jq -r '.tool_input.file_path // empty')
+FILE=$(jq -r '.tool_input.file_path // empty' < /dev/stdin)
 
 if [[ "$FILE" != *.swift ]]; then
     exit 0
