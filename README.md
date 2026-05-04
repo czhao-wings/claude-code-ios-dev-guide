@@ -656,7 +656,7 @@ claude --model claude-sonnet-4-5-20250929
 ---
 description: Create implementation plan for a feature
 argument-hint: <feature-name>
-allowed-tools: Read, Grep, Glob
+allowed-tools: Read, Write, Grep, Glob
 model: claude-opus-4-5-20250929
 ---
 
