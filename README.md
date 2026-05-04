@@ -119,7 +119,7 @@ The `CLAUDE.md` file is your primary context provider. Claude automatically load
 
 Create `CLAUDE.md` in your project root:
 
-```markdown
+````markdown
 # Project: [Your App Name]
 
 ## Quick Reference
@@ -227,13 +227,13 @@ When starting new features:
 @import docs/PRD.md
 @import docs/ARCHITECTURE.md
 @import docs/ROADMAP.md
-```
+````
 
 ### Nested CLAUDE.md for Feature Directories
 
 Create `.claude/CLAUDE.md` or `Features/[FeatureName]/CLAUDE.md`:
 
-```markdown
+````markdown
 # [Feature Name] Module
 
 ## Purpose
@@ -265,7 +265,7 @@ final class ParentViewModel {
 
 ## Testing
 Run tests: `mcp__xcodebuildmcp__swift_package_test`
-```
+````
 
 ---
 
